@@ -41,6 +41,6 @@ int main(int argc, char const *argv[]) {
     int target;
     cin >> target;
     int result = solution.SearchInRotatedArray(ipVec, 0, sizeOfIpVec - 1, target);
-    cout << "First and Last appearences of the key is [" << result << "]"<< endl;
+    cout << "Required Element ans :  [" << result << "]"<< endl;
     return 0;
 }
